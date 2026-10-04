@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamed Abdulhamid Tahawy - AI & Machine Learning Engineer | AWS Certified MLA-C01 | LLMs, Enterprise RAG, Computer Vision & MLOps." />
+  <meta name="keywords" content="Mohamed Tahawy, AI Engineer, Machine Learning Engineer, AWS MLA-C01, Generative AI, RAG, Computer Vision, MLOps, PyTorch, Deep Learning" />
+  <meta name="author" content="Mohamed Abdulhamid Tahawy" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Mohamed Abdulhamid Tahawy | AI & Machine Learning Engineer" />
+  <meta property="og:description" content="Portfolio of Mohamed Abdulhamid Tahawy — AWS Certified Machine Learning Engineer (MLA-C01) specializing in LLMs, RAG, Multimodal systems, and production AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="tahawy-high-resolution-logo.png" />
+
+  <title>Mohamed Abdulhamid Tahawy | AI & Machine Learning Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="tahawy-high-resolution-logo.png" />
+
+  <!-- Google Fonts: Outfit, Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+  <!-- Subtle Dynamic Background Canvas & Ambient Orbs -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+  <div class="cyber-grid-overlay"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Mohamed Tahawy Home">
+        <img src="tahawy-high-resolution-logo.png" alt="Tahawy Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-name">Mohamed Tahawy</span>
+          <span class="brand-role">AI Engineer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#terminal" class="nav-link">Terminal</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="Mohamed Abdulhamid Tahawy CV.pdf" target="_blank" class="btn btn-outline btn-sm nav-cv-btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>CV</span>
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta-btn">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Certification Badge Pill -->
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <i class="fa-brands fa-aws badge-icon"></i>
+            <span>AWS Certified Machine Learning Engineer &mdash; Associate (MLA-C01)</span>
+          </div>
+
+          <!-- Main Title -->
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Mohamed Abdulhamid Tahawy</span>
+          </h1>
+
+          <!-- Dynamic Typing Subheading -->
+          <div class="hero-typing-wrap">
+            <span class="typing-prefix">Specialized in: </span>
+            <span class="typing-text" id="typingText"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <!-- Elevator Pitch -->
+          <p class="hero-description">
+            Building scalable, production-grade AI solutions &mdash; from enterprise Retrieval-Augmented Generation (RAG) and autonomous agents to sub-second real-time network telemetry systems. Certified AWS ML Engineer and AI Instructor mentoring future ML talent.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="Mohamed Abdulhamid Tahawy CV.pdf" target="_blank" class="btn btn-secondary btn-lg" download>
+              <i class="fa-solid fa-download"></i>
+              <span>Download Master Resume</span>
+            </a>
+            <a href="mailto:mohamed7tahawy@gmail.com" class="btn btn-ghost btn-lg email-direct-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Let's Connect</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats Banner -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-number">~200<span class="stat-unit">ms</span></div>
+              <div class="stat-label">Detection Latency (FlowWatch-AI)</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <div class="stat-number">89.5<span class="stat-unit">%</span></div>
+              <div class="stat-label">Quant Win Rate (MT5 VPS)</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <div class="stat-number">50<span class="stat-unit">+</span></div>
+              <div class="stat-label">Engineers Mentored (NTI Lead)</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <div class="stat-number">3<span class="stat-unit">x</span></div>
+              <div class="stat-label">AWS Certifications Earned</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic / Headshot -->
+        <div class="hero-visual">
+          <div class="visual-wrapper">
+            <div class="glow-backdrop"></div>
+            <div class="avatar-ring ring-outer"></div>
+            <div class="avatar-ring ring-middle"></div>
+            <div class="avatar-container">
+              <img src="Tahawy Pro.png" alt="Mohamed Abdulhamid Tahawy" class="hero-headshot" />
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-top-right">
+              <img src="aws-certified-machine-learning-engineer-associate badge.png" alt="AWS MLA-C01" class="floating-badge-img" />
+              <div class="floating-badge-info">
+                <strong>AWS MLA-C01</strong>
+                <span>Certified ML Engineer</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="floating-badge-info">
+                <strong>Generative AI &amp; RAG</strong>
+                <span>ChromaDB &bull; Multi-Agent</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon-box vision-icon">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="floating-badge-info">
+                <strong>Computer Vision</strong>
+                <span>YOLO &bull; OCR &bull; Multimodal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Engineering Ethos</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Bridging theoretical machine learning with production-grade reliability</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card">
+            <div class="bio-header">
+              <div class="bio-avatar-small">
+                <img src="Tahawy Pro.png" alt="Mohamed Tahawy" />
+              </div>
+              <div>
+                <h3 class="bio-name">Mohamed Abdulhamid Tahawy</h3>
+                <p class="bio-title">AI Engineer &amp; Technical Instructor &bull; Cairo / Giza, Egypt</p>
+              </div>
+            </div>
+            <div class="bio-text">
+              <p>
+                I am an <strong>AI Engineer and Technical Instructor</strong> holding a <strong>B.Sc. in Computer Science &amp; Artificial Intelligence</strong> (Grade: <em>Very Good</em>, Capstone: <em>Excellent</em>) from Fayoum University. Certified as an <strong>AWS Certified Machine Learning Engineer &mdash; Associate (MLA-C01)</strong>, <strong>AWS AI Practitioner</strong>, and <strong>AWS Cloud Practitioner</strong>, I specialize in end-to-end applied AI systems, bilingual conversational agents, multimodal document intelligence, and low-latency computer vision telemetry.
+              </p>
+              <p>
+                Beyond engineering, I serve as an <strong>AI Instructor &amp; Technical Lead at the National Telecommunication Institute (NTI)</strong>, where I architected and delivered a 90-hour intensive Machine Learning program, mentoring 50+ engineers in model evaluation, reproducible MLOps, clean code, and cloud deployment workflows.
+              </p>
+              <p>
+                I thrive in environments requiring autonomous initiative &mdash; whether architecting enterprise RAG knowledge bases with ChromaDB, containerizing microservices on Linux VPS with Docker and Nginx, or training custom deep learning vision-language models.
+              </p>
+            </div>
+
+            <div class="bio-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>B.Sc. in Computer Science &amp; AI</strong>
+                  <span>Fayoum University (Grade: Very Good, Capstone: Excellent)</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <div>
+                  <strong>AI Instructor &amp; Technical Lead</strong>
+                  <span>NTI &mdash; 90-Hour Curriculum delivered to 50+ Engineers</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-globe"></i>
+                <div>
+                  <strong>Global Remote Ready</strong>
+                  <span>Native Arabic, Professional English (B2), Military Exempted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Specs Side Column -->
+          <div class="about-specs-col">
+            <div class="spec-card">
+              <div class="spec-icon"><i class="fa-solid fa-terminal"></i></div>
+              <div class="spec-info">
+                <h4>Core Focus</h4>
+                <p>Enterprise LLMs, RAG, Sub-second Inference, Computer Vision, MLOps</p>
+              </div>
+            </div>
+
+            <div class="spec-card">
+              <div class="spec-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+              <div class="spec-info">
+                <h4>Cloud &amp; Architecture</h4>
+                <p>AWS (MLA-C01 Certified), GCP, Docker, FastAPI, Linux VPS, Nginx, PM2</p>
+              </div>
+            </div>
+
+            <div class="spec-card">
+              <div class="spec-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="spec-info">
+                <h4>Production Mindset</h4>
+                <p>Telemetry-driven observability, automated defense, JSON auditing, CI/CD</p>
+              </div>
+            </div>
+
+            <div class="spec-card cta-box">
+              <h4>Ready to build?</h4>
+              <p>Looking for a high-impact AI/ML Engineer to architect your next model or agent pipeline?</p>
+              <a href="#contact" class="btn btn-primary btn-block">
+                <span>Start Conversation</span>
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE TECHNICAL COMPETENCIES (4-CARD GRID) -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 class="section-title">Core Competencies</h2>
+          <p class="section-subtitle">Battle-tested tools and frameworks for production machine learning and generative AI</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Generative AI & LLMs -->
+          <div class="skill-card">
+            <div class="card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon icon-genai">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div>
+                <h3 class="skill-title">Generative AI &amp; LLMs</h3>
+                <span class="skill-subtitle">Enterprise RAG &amp; Autonomous Agents</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-circle-check"></i> Enterprise RAG Pipelines &amp; Semantic Search</li>
+              <li><i class="fa-solid fa-circle-check"></i> ChromaDB Vector Store &amp; Embeddings</li>
+              <li><i class="fa-solid fa-circle-check"></i> Multi-Turn Stateful Agents (Gemini API, OpenAI)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Prompt Engineering, ReAct &amp; Tool Calling</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bilingual Conversational Systems (Arabic / English)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dynamic JSON Session Memory &amp; Context Windows</li>
+            </ul>
+            <div class="skill-tags">
+              <span>LangChain</span>
+              <span>ChromaDB</span>
+              <span>Gemini API</span>
+              <span>OpenAI</span>
+              <span>RAG</span>
+              <span>Vector Search</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Computer Vision & Multimodal -->
+          <div class="skill-card">
+            <div class="card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon icon-cv">
+                <i class="fa-solid fa-camera"></i>
+              </div>
+              <div>
+                <h3 class="skill-title">Computer Vision &amp; Multimodal</h3>
+                <span class="skill-subtitle">Perception, Detection &amp; Captioning</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-circle-check"></i> OCR &amp; Document Parsing (Tesseract, OpenCV)</li>
+              <li><i class="fa-solid fa-circle-check"></i> YOLO Object Detection &amp; Multi-Object Tracking</li>
+              <li><i class="fa-solid fa-circle-check"></i> Vision-to-Language Image Captioning (COCO 2017)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Real-Time CCTV Stream Analytics &amp; Alerting</li>
+              <li><i class="fa-solid fa-circle-check"></i> Facial Recognition &amp; Biometric Security</li>
+              <li><i class="fa-solid fa-circle-check"></i> CNN-LSTM &amp; Transformer Hybrid Architectures</li>
+            </ul>
+            <div class="skill-tags">
+              <span>OpenCV</span>
+              <span>YOLOv8</span>
+              <span>Tesseract</span>
+              <span>Face Recognition</span>
+              <span>Image Captioning</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Deep Learning & Frameworks -->
+          <div class="skill-card">
+            <div class="card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon icon-dl">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div>
+                <h3 class="skill-title">Machine Learning &amp; Deep Learning</h3>
+                <span class="skill-subtitle">Model Engineering &amp; Optimization</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-circle-check"></i> PyTorch, TensorFlow, Keras, Scikit-learn</li>
+              <li><i class="fa-solid fa-circle-check"></i> Model Evaluation (Precision, Recall, F1, ROC-AUC)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Feature Engineering &amp; Data Pipeline Architecture</li>
+              <li><i class="fa-solid fa-circle-check"></i> Supervised, Unsupervised &amp; Anomaly Detection</li>
+              <li><i class="fa-solid fa-circle-check"></i> Model Quantization, Pruning &amp; Low-Latency Tuning</li>
+              <li><i class="fa-solid fa-circle-check"></i> Time-Series Forecasting &amp; Financial Telemetry</li>
+            </ul>
+            <div class="skill-tags">
+              <span>PyTorch</span>
+              <span>TensorFlow</span>
+              <span>Scikit-learn</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Keras</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Cloud, MLOps & Backend -->
+          <div class="skill-card">
+            <div class="card-glow"></div>
+            <div class="skill-header">
+              <div class="skill-icon icon-ops">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <div>
+                <h3 class="skill-title">Cloud, MLOps &amp; Backend</h3>
+                <span class="skill-subtitle">Scalable Deployment &amp; Infrastructure</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-circle-check"></i> AWS Cloud (MLA-C01 Certified), S3, EC2, SageMaker</li>
+              <li><i class="fa-solid fa-circle-check"></i> Docker Containerization &amp; Multi-Container Compose</li>
+              <li><i class="fa-solid fa-circle-check"></i> FastAPI, Flask, Async RESTful APIs</li>
+              <li><i class="fa-solid fa-circle-check"></i> Linux VPS Server Administration, Nginx &amp; PM2</li>
+              <li><i class="fa-solid fa-circle-check"></i> Structured JSON Audit Logging &amp; Telemetry</li>
+              <li><i class="fa-solid fa-circle-check"></i> Git / GitHub CI/CD Workflows</li>
+            </ul>
+            <div class="skill-tags">
+              <span>AWS Cloud</span>
+              <span>Docker</span>
+              <span>FastAPI</span>
+              <span>Linux VPS</span>
+              <span>Nginx</span>
+              <span>PM2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Proven Track Record</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world AI systems engineered for low latency, high accuracy, and enterprise scalability</p>
+
+          <!-- Filter Pills -->
+          <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="rag">GenAI &amp; RAG</button>
+            <button class="filter-btn" data-filter="telemetry">Real-Time &amp; Quant</button>
+            <button class="filter-btn" data-filter="vision">Computer Vision</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: FlowWatch-AI -->
+          <article class="project-card" data-category="telemetry">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill">
+                  <i class="fa-solid fa-bolt-lightning"></i>
+                  <span>~200 ms Detection Latency</span>
+                </div>
+                <span class="project-type">NTI Capstone</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">FlowWatch-AI</h3>
+                <h4 class="project-subtitle">Real-Time Network Threat Intelligence Platform</h4>
+                <p class="project-desc">
+                  Real-time monitoring platform pairing multi-stage ML classification with automated IP defense and structured JSON audit logging. Analyzes high-volume live traffic telemetry to detect anomaly vectors and execute automated firewall mitigations under 200ms.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-shield"></i> Sub-second dynamic IP blocking</div>
+                  <div class="feat-item"><i class="fa-solid fa-chart-line"></i> Interactive Streamlit telemetry dashboard</div>
+                  <div class="feat-item"><i class="fa-solid fa-file-code"></i> Structured audit logs for SecOps compliance</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Scikit-learn</span>
+                  <span>Streamlit</span>
+                  <span>Power BI</span>
+                  <span>REST APIs</span>
+                  <span>JSON Telemetry</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Architecture Inquiry</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: EduBot -->
+          <article class="project-card" data-category="rag">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill pill-cyan">
+                  <i class="fa-solid fa-book-open"></i>
+                  <span>Full OCR-to-Vector Pipeline</span>
+                </div>
+                <span class="project-type">Abs.ai Prototype</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">EduBot</h3>
+                <h4 class="project-subtitle">Document Intelligence &amp; RAG Knowledge Base</h4>
+                <p class="project-desc">
+                  End-to-end OCR and vectorization engine extracting dense text, tables, and schematics from physical textbooks into a VPS-hosted ChromaDB for instant semantic Q&amp;A. Designed for multi-format knowledge asset ingestion with precise citation retrieval.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-file-pdf"></i> Scanned book OCR with Tesseract &amp; OpenCV</div>
+                  <div class="feat-item"><i class="fa-solid fa-database"></i> ChromaDB vector embedding &amp; hybrid search</div>
+                  <div class="feat-item"><i class="fa-solid fa-robot"></i> Multi-turn question answering with Gemini API</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>ChromaDB</span>
+                  <span>Gemini API</span>
+                  <span>OpenCV</span>
+                  <span>Tesseract</span>
+                  <span>Docker</span>
+                  <span>FastAPI</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Explore Demo</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Algorithmic Forex Trading Bot -->
+          <article class="project-card" data-category="telemetry">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill pill-green">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                  <span>89.5% Win Rate (from 38%)</span>
+                </div>
+                <span class="project-type">Quantitative System</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Algorithmic Forex Trading Bot</h3>
+                <h4 class="project-subtitle">Automated Quantitative Execution Engine on MT5</h4>
+                <p class="project-desc">
+                  Automated quantitative trading bot on MetaTrader 5 (MT5) featuring dynamic risk management, multi-indicator feature engineering, and 24/7 cloud VPS execution. Drastically boosted strategy win rate from 38% to 89.5% through disciplined volatility modeling and strict drawdown control.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-calculator"></i> Quantitative technical indicator fusion</div>
+                  <div class="feat-item"><i class="fa-solid fa-shield-virus"></i> Dynamic stop-loss and trailing take-profit engine</div>
+                  <div class="feat-item"><i class="fa-solid fa-clock"></i> 24/7 autonomous VPS uptime with failure recovery</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>MetaTrader 5</span>
+                  <span>Python</span>
+                  <span>Algorithmic Trading</span>
+                  <span>Feature Engineering</span>
+                  <span>Linux VPS</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: I-Monitor -->
+          <article class="project-card" data-category="vision">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill pill-purple">
+                  <i class="fa-solid fa-eye"></i>
+                  <span>COCO 2017 Benchmark</span>
+                </div>
+                <span class="project-type">DEPI Capstone</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">I-Monitor</h3>
+                <h4 class="project-subtitle">Multimodal Vision-to-Language Assistive System</h4>
+                <p class="project-desc">
+                  Assistive deep learning solution converting complex real-world visual scenes into descriptive natural language for visually impaired individuals. Utilizes CNN-Transformer architectures trained on the benchmark COCO 2017 dataset for context-rich caption synthesis.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-wand-magic"></i> Vision-to-Language multimodal synthesis</div>
+                  <div class="feat-item"><i class="fa-solid fa-network-wired"></i> CNN-LSTM &amp; Transformer attention encoder</div>
+                  <div class="feat-item"><i class="fa-solid fa-universal-access"></i> Assistive accessibility UX design</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>TensorFlow</span>
+                  <span>CNN-Transformer</span>
+                  <span>Computer Vision</span>
+                  <span>COCO 2017</span>
+                  <span>Python</span>
+                  <span>Keras</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Multimodal Details</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Enterprise Bilingual Banking Assistant -->
+          <article class="project-card" data-category="rag">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill pill-cyan">
+                  <i class="fa-solid fa-comments"></i>
+                  <span>Stateful Session Memory</span>
+                </div>
+                <span class="project-type">Enterprise AI</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Bilingual Banking AI Assistant</h3>
+                <h4 class="project-subtitle">Multi-Turn Enterprise Agent with ChromaDB</h4>
+                <p class="project-desc">
+                  Enterprise bilingual (Arabic/English) conversational assistant engineered with persistent JSON session memory, domain slot-filling, and ChromaDB vector retrieval for banking policy guidance. Deployed containerized on a Linux VPS with Docker and Nginx reverse proxy.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-language"></i> Bilingual Arabic &amp; English semantic routing</div>
+                  <div class="feat-item"><i class="fa-solid fa-memory"></i> Stateful session history &amp; slot tracking</div>
+                  <div class="feat-item"><i class="fa-solid fa-box"></i> Dockerized container stack on Linux VPS</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>Gemini API</span>
+                  <span>ChromaDB</span>
+                  <span>FastAPI</span>
+                  <span>Docker</span>
+                  <span>Nginx</span>
+                  <span>PM2</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Architecture Inquiry</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: WSAM Smart Facility Management -->
+          <article class="project-card" data-category="vision">
+            <div class="project-card-inner">
+              <div class="project-top">
+                <div class="metric-pill pill-amber">
+                  <i class="fa-solid fa-trophy"></i>
+                  <span>Grade: Excellent</span>
+                </div>
+                <span class="project-type">University Capstone</span>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">WSAM Smart Facility Platform</h3>
+                <h4 class="project-subtitle">CCTV Stream Analytics &amp; Biometric Security</h4>
+                <p class="project-desc">
+                  Comprehensive smart facility management prototype featuring multi-camera CCTV stream analytics, automated anomaly detection, and multi-factor biometric authentication using multi-threaded OpenCV and facial recognition algorithms.
+                </p>
+
+                <div class="project-features">
+                  <div class="feat-item"><i class="fa-solid fa-video"></i> Multi-threaded live video feed ingestion</div>
+                  <div class="feat-item"><i class="fa-solid fa-id-card"></i> Biometric facial recognition verification</div>
+                  <div class="feat-item"><i class="fa-solid fa-bell"></i> Instant intrusion &amp; safety alerting</div>
+                </div>
+
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>OpenCV</span>
+                  <span>Face Recognition</span>
+                  <span>YOLO</span>
+                  <span>Multi-Threading</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost btn-sm">
+                  <span>Project Overview</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE & LEADERSHIP SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Career Milestones</span>
+          <h2 class="section-title">Work Experience &amp; Leadership</h2>
+          <p class="section-subtitle">Delivering tangible technical value and mentoring the next generation of engineers</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: NTI Instructor & Lead -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-info">
+                  <h3 class="timeline-role">AI Instructor &amp; Technical Lead</h3>
+                  <h4 class="timeline-company">
+                    <i class="fa-solid fa-building-columns"></i>
+                    National Telecommunication Institute (NTI)
+                  </h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-badge current-badge">Active</span>
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Nov 2025 &ndash; Present</span>
+                  <span class="timeline-loc"><i class="fa-solid fa-location-dot"></i> Giza, Egypt</span>
+                </div>
+              </div>
+              <div class="timeline-body">
+                <ul class="timeline-bullets">
+                  <li>
+                    <strong>Curriculum Architecture &amp; Delivery:</strong> Authored and led a comprehensive 90-hour curriculum on <em>End-to-End Machine Learning and Applied AI for Business</em> for 50+ undergraduate engineers.
+                  </li>
+                  <li>
+                    <strong>Practical MLOps Mentorship:</strong> Guided students through cloud deployment workflows (AWS/GCP), RESTful API integration, and model evaluation metrics (F1, Precision, Recall, Loss).
+                  </li>
+                  <li>
+                    <strong>Engineering Standards:</strong> Instilled industry-grade best practices for clean code, model versioning, API documentation, and stakeholder reporting.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Abs.ai AI Engineer Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-info">
+                  <h3 class="timeline-role">AI Engineer Intern</h3>
+                  <h4 class="timeline-company">
+                    <i class="fa-solid fa-microchip"></i>
+                    Abs.ai
+                  </h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Nov 2025 &ndash; Dec 2025</span>
+                  <span class="timeline-loc"><i class="fa-solid fa-location-dot"></i> New Cairo, Egypt</span>
+                </div>
+              </div>
+              <div class="timeline-body">
+                <ul class="timeline-bullets">
+                  <li>
+                    <strong>Conversational Banking Assistant:</strong> Co-architected an enterprise bilingual virtual assistant using Gemini API, ChromaDB vector retrieval, and stateful JSON memory stores.
+                  </li>
+                  <li>
+                    <strong>Document Intelligence (EduBot):</strong> Engineered an automated OCR-to-vector indexing pipeline converting physical documents into searchable vector knowledge stores.
+                  </li>
+                  <li>
+                    <strong>Production Microservices:</strong> Deployed containerized AI microservices on Linux VPS managed with Docker, Nginx reverse proxy, and PM2 process manager.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: NTI AI & Cybersecurity Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-info">
+                  <h3 class="timeline-role">AI &amp; Cybersecurity Engineering Intern</h3>
+                  <h4 class="timeline-company">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    NTI (National Telecommunication Institute)
+                  </h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jul 2025 &ndash; Oct 2025</span>
+                  <span class="timeline-loc"><i class="fa-solid fa-location-dot"></i> Smart Village, Egypt</span>
+                </div>
+              </div>
+              <div class="timeline-body">
+                <ul class="timeline-bullets">
+                  <li>
+                    <strong>Anomaly Detection &amp; Threat Prediction:</strong> Developed ML models to detect anomalies and predict cyber threat vectors across high-volume network telemetry logs.
+                  </li>
+                  <li>
+                    <strong>Automated Defense Mitigation:</strong> Engineered automated defense pipelines triggering dynamic firewall rules upon classification, achieving ~200ms detection latency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Codsoft ML Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-info">
+                  <h3 class="timeline-role">Machine Learning Intern</h3>
+                  <h4 class="timeline-company">
+                    <i class="fa-solid fa-code"></i>
+                    Codsoft
+                  </h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2024</span>
+                  <span class="timeline-loc"><i class="fa-solid fa-location-dot"></i> Remote</span>
+                </div>
+              </div>
+              <div class="timeline-body">
+                <ul class="timeline-bullets">
+                  <li>
+                    <strong>Predictive Prototyping:</strong> Trained and validated supervised ML models for predictive classification and regression tasks.
+                  </li>
+                  <li>
+                    <strong>API Packaging:</strong> Packaged inference models into lightweight REST API endpoints with structured documentation.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDUSTRY CERTIFICATIONS & ACCREDITATIONS -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Verified Credentials</span>
+          <h2 class="section-title">Industry Certifications</h2>
+          <p class="section-subtitle">Globally accredited validations of machine learning, cloud architecture, and artificial intelligence</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: AWS MLA-C01 -->
+          <div class="cert-card cert-card-featured" onclick="openCertModal('aws-certified-machine-learning-engineer-associate badge.png', 'AWS Certified Machine Learning Engineer - Associate (MLA-C01)')">
+            <div class="cert-badge-wrapper">
+              <img src="aws-certified-machine-learning-engineer-associate badge.png" alt="AWS Certified Machine Learning Engineer Associate Badge" class="cert-img" />
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-brands fa-aws"></i> Amazon Web Services</span>
+              <h3 class="cert-title">Machine Learning Engineer &mdash; Associate (MLA-C01)</h3>
+              <p class="cert-date">Issued: 2026 &bull; Professional Credential</p>
+              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview badge</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: AWS AI Practitioner -->
+          <div class="cert-card" onclick="openCertModal('aws-certified-ai-practitioner badge.png', 'AWS Certified AI Practitioner')">
+            <div class="cert-badge-wrapper">
+              <img src="aws-certified-ai-practitioner badge.png" alt="AWS Certified AI Practitioner Badge" class="cert-img" />
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-brands fa-aws"></i> Amazon Web Services</span>
+              <h3 class="cert-title">Certified AI Practitioner</h3>
+              <p class="cert-date">Issued: Oct 2025</p>
+              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview badge</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: AWS Cloud Practitioner -->
+          <div class="cert-card" onclick="openCertModal('aws-certified-cloud-practitioner badge.png', 'AWS Certified Cloud Practitioner')">
+            <div class="cert-badge-wrapper">
+              <img src="aws-certified-cloud-practitioner badge.png" alt="AWS Certified Cloud Practitioner Badge" class="cert-img" />
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-brands fa-aws"></i> Amazon Web Services</span>
+              <h3 class="cert-title">Certified Cloud Practitioner</h3>
+              <p class="cert-date">Issued: Feb 2025</p>
+              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview badge</span>
+            </div>
+          </div>
+
+          <!-- Cert 4: Huawei HCCDA-AI -->
+          <div class="cert-card" onclick="openCertModal('Mohamed  Tahawy - Huawei HCCDA-AI.png', 'Huawei HCCDA-AI Certification')">
+            <div class="cert-badge-wrapper cert-cert-wrapper">
+              <img src="Mohamed  Tahawy - Huawei HCCDA-AI.png" alt="Huawei HCCDA-AI Certificate" class="cert-img cert-banner-img" />
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-solid fa-certificate"></i> Huawei</span>
+              <h3 class="cert-title">Huawei HCCDA &mdash; AI</h3>
+              <p class="cert-date">Issued: Oct 2025 &bull; Artificial Intelligence</p>
+              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview certificate</span>
+            </div>
+          </div>
+
+          <!-- Cert 5: NVIDIA DLI -->
+          <div class="cert-card" onclick="openCertModal('nvidia_cert-1.png', 'NVIDIA Deep Learning Institute (DLI) Certificate')">
+            <div class="cert-badge-wrapper cert-cert-wrapper">
+              <img src="nvidia_cert-1.png" alt="NVIDIA DLI Certificate" class="cert-img cert-banner-img" />
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-solid fa-microchip"></i> NVIDIA</span>
+              <h3 class="cert-title">NVIDIA Deep Learning Institute (DLI)</h3>
+              <p class="cert-date">Issued: Sep 2025 &bull; Deep Learning</p>
+              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview certificate</span>
+            </div>
+          </div>
+
+          <!-- Cert 6: DEPI AWS ML Trainee & Team Leader -->
+          <div class="cert-card" onclick="openCertModal('DEPI AWS ML ENG certificate for TEamleaders.pdf', 'DEPI AWS ML Engineer & Team Leader Honor')">
+            <div class="cert-badge-wrapper">
+              <div class="depi-icon-badge">
+                <i class="fa-solid fa-award"></i>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer"><i class="fa-solid fa-landmark"></i> DEPI (Digital Egypt)</span>
+              <h3 class="cert-title">AWS ML Engineer &amp; Team Leader</h3>
+              <p class="cert-date">182 Hours Intensive Trainee &amp; Leadership Honor</p>
+              <a href="DEPI AWS ML ENG certificate for TEamleaders.pdf" target="_blank" class="view-cert-link" onclick="event.stopPropagation()">
+                <i class="fa-solid fa-file-pdf"></i> View official PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TERMINAL PLAYGROUND -->
+    <section class="section terminal-section" id="terminal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Interactive Shell</span>
+          <h2 class="section-title">Developer Terminal</h2>
+          <p class="section-subtitle">Interact with Mohamed's virtual AI workstation environment in real-time</p>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <div class="terminal-buttons">
+              <span class="btn-circle red"></span>
+              <span class="btn-circle yellow"></span>
+              <span class="btn-circle green"></span>
+            </div>
+            <div class="terminal-title">tahawy@ai-workstation: ~ (zsh)</div>
+            <div class="terminal-badges">
+              <span class="t-badge"><i class="fa-brands fa-aws"></i> MLA-C01</span>
+              <span class="t-badge"><i class="fa-brands fa-python"></i> Py3.11</span>
+            </div>
+          </div>
+
+          <div class="terminal-body" id="terminalOutput">
+            <div class="t-line t-comment"># Welcome to Mohamed Tahawy's AI Station CLI</div>
+            <div class="t-line t-comment"># Type 'help' to see available commands or click quick actions below.</div>
+            <div class="t-line">
+              <span class="t-prompt">tahawy@ai-workstation:~$</span>
+              <span class="t-cmd">whoami</span>
+            </div>
+            <div class="t-line t-resp">
+              Mohamed Abdulhamid Tahawy &mdash; AI &amp; Machine Learning Engineer (AWS MLA-C01 Certified).
+            </div>
+            <div class="t-line">
+              <span class="t-prompt">tahawy@ai-workstation:~$</span>
+              <span class="t-cmd">cat status.json</span>
+            </div>
+            <div class="t-line t-resp json-block">
+{<br />
+&nbsp;&nbsp;"status": "Available for High-Impact AI Roles",<br />
+&nbsp;&nbsp;"location": "Cairo/Giza, Egypt (Remote Worldwide)",<br />
+&nbsp;&nbsp;"certifications": ["AWS MLA-C01", "AWS AI Practitioner", "AWS Cloud Practitioner", "Huawei HCCDA-AI", "NVIDIA DLI"],<br />
+&nbsp;&nbsp;"specialties": ["Enterprise RAG", "Computer Vision", "Sub-second Telemetry", "Autonomous Agents"]<br />
+}
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons for Terminal -->
+          <div class="terminal-quick-actions">
+            <span class="quick-label">Quick Commands:</span>
+            <button class="t-btn" onclick="runCommand('skills')">skills</button>
+            <button class="t-btn" onclick="runCommand('projects')">projects</button>
+            <button class="t-btn" onclick="runCommand('certs')">certs</button>
+            <button class="t-btn" onclick="runCommand('contact')">contact</button>
+            <button class="t-btn" onclick="runCommand('hire')">hire</button>
+            <button class="t-btn" onclick="runCommand('clear')">clear</button>
+          </div>
+
+          <div class="terminal-input-bar">
+            <span class="t-prompt">tahawy@ai-workstation:~$</span>
+            <input type="text" id="terminalInput" class="t-input" placeholder="Type command (e.g. help, skills, projects, contact, hire)..." autocomplete="off" spellcheck="false" />
+            <button class="t-send-btn" id="terminalSendBtn" aria-label="Execute command">
+              <i class="fa-solid fa-arrow-turn-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & FOOTER SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Let&rsquo;s Build Next-Generation AI Together</h2>
+          <p class="section-subtitle">Open for full-time engineering roles, AI consulting, and technical collaborations worldwide</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Details Card -->
+          <div class="contact-card">
+            <h3>Contact Channels</h3>
+            <p>Feel free to reach out directly via email, phone, or LinkedIn. I typically respond within 24 hours.</p>
+
+            <div class="contact-links-list">
+              <!-- Email with Click-to-Copy -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-info">
+                  <span class="contact-label">Direct Email</span>
+                  <a href="mailto:mohamed7tahawy@gmail.com" class="contact-val">mohamed7tahawy@gmail.com</a>
+                </div>
+                <button class="copy-btn" onclick="copyToClipboard('mohamed7tahawy@gmail.com', this)" title="Copy email address">
+                  <i class="fa-regular fa-copy"></i>
+                  <span class="copy-tooltip">Copy</span>
+                </button>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-info">
+                  <span class="contact-label">Phone &amp; WhatsApp</span>
+                  <a href="tel:+201016483150" class="contact-val">+20 1016483150</a>
+                </div>
+                <a href="https://wa.me/201016483150" target="_blank" class="copy-btn" title="Open WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="contact-info">
+                  <span class="contact-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" class="contact-val">linkedin.com/in/mohamedtahawy</a>
+                </div>
+                <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" class="copy-btn" title="Visit LinkedIn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="contact-info">
+                  <span class="contact-label">GitHub Repositories</span>
+                  <a href="https://github.com/MohammedTahawy" target="_blank" class="contact-val">github.com/MohammedTahawy</a>
+                </div>
+                <a href="https://github.com/MohammedTahawy" target="_blank" class="copy-btn" title="Visit GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-info">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-val text-muted">Cairo / Giza, Egypt (Available for Remote Worldwide)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Form / Quick Reach Out -->
+          <div class="contact-card message-card">
+            <h3>Send a Direct Message</h3>
+            <p>Need custom AI architecture, RAG systems, or low-latency computer vision? Drop a note below:</p>
+
+            <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" required placeholder="e.g. Sarah Jenkins" class="form-input" />
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" required placeholder="name@company.com" class="form-input" />
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject">Subject / Opportunity</label>
+                <input type="text" id="senderSubject" required placeholder="AI Engineer Role / Project Consultation" class="form-input" />
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage">Message</label>
+                <textarea id="senderMessage" rows="4" required placeholder="Hi Mohamed, we were impressed by your FlowWatch-AI and AWS MLA-C01 credentials..." class="form-input"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <img src="tahawy-high-resolution-logo.png" alt="Mohamed Tahawy Logo" class="footer-logo" />
+        <div>
+          <div class="footer-brand-name">Mohamed Abdulhamid Tahawy</div>
+          <div class="footer-brand-title">AI &amp; Machine Learning Engineer | AWS MLA-C01</div>
+        </div>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/MohammedTahawy" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:mohamed7tahawy@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+201016483150" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+
+      <div class="footer-right">
+        <p>&copy; 2026 Mohamed Abdulhamid Tahawy. Built for GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CERTIFICATE LIGHTBOX / MODAL -->
+  <div class="cert-modal" id="certModal" onclick="closeCertModal()">
+    <div class="cert-modal-content" onclick="event.stopPropagation()">
+      <button class="cert-modal-close" onclick="closeCertModal()" aria-label="Close Preview">&times;</button>
+      <div class="cert-modal-body">
+        <img id="certModalImg" src="" alt="Certificate Preview" />
+        <h4 id="certModalTitle"></h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-container" id="toast"></div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>

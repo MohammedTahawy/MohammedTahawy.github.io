@@ -1,0 +1,105 @@
+Create a modern, sleek, high-tech portfolio website for Mohamed Abdulhamid Tahawy, an AI & Machine Learning Engineer certified as an AWS Certified Machine Learning Engineer - Associate (MLA-C01). 
+
+Theme & Aesthetic:
+- Minimalist, dark mode tech aesthetic (Deep Navy #002060, Slate Charcoal, Electric Blue accents, clean white typography).
+- Modern tech typography, high contrast, clean cards with rounded borders.
+
+Structure & Pages/Sections:
+1. Navigation Bar & Hero Section: Prominent personal logo, professional photo, strong headline: "AI Engineer | Machine Learning, LLMs & Multimodal Systems", short elevator pitch, and two CTA buttons: "Explore Projects" and "Download Resume".
+2. About Me: Highlighting B.Sc. in Computer Science & AI (Very Good), AWS MLA-C01 certification, and technical leadership as an AI Instructor at NTI.
+3. Core Technical Skills: Interactive grid/cards for Generative AI & RAG, Computer Vision, Deep Learning (PyTorch/TensorFlow), and Cloud/MLOps (AWS, Docker, FastAPI).
+4. Featured Projects: Visual cards with metrics for:
+   - FlowWatch-AI (Real-time network threat intelligence, 200ms mitigation)
+   - EduBot (OCR & RAG document intelligence engine)
+   - Algorithmic Trading Bot (89.5% win rate on MT5)
+   - I-Monitor (Multimodal vision-to-language deep learning system)
+5. Work Experience & Leadership: Experience cards for Abs.ai (AI Engineer Intern) and NTI (AI Instructor & Technical Lead, 90h curriculum).
+6. Industry Certifications: Visual badge display for AWS Certified Machine Learning Engineer (MLA-C01), AWS AI Practitioner, AWS Cloud Practitioner, Huawei HCCDA-AI, and NVIDIA DLI.
+7. Contact & Footer: Direct email link, phone, LinkedIn, GitHub, and location (Cairo / Remote worldwide).
+
+
+
+Section 1: Header & Hero (Your Logo + Photo)
+Top Navigation Bar: [Your Logo] | Home | About | Skills | Projects | Experience | Certifications | Contact
+Badge/Pill: ⚡ AWS Certified Machine Learning Engineer - Associate (MLA-C01)
+Main Heading:
+Mohamed Abdulhamid Tahawy
+Subheading:
+AI Engineer | LLMs, Multimodal Pipelines & Cloud Architecture
+Tagline:
+"Building scalable, production-grade AI solutions — from enterprise RAG and autonomous agents to sub-second real-time telemetry systems."
+Hero CTA Buttons:
+[View Projects] (links to Projects section)
+[Download Resume] (links to your CV PDF)
+[Let's Connect] (mailto: 
+
+mohamed7tahawy@gmail.com
+)
+Section 2: About Me
+Heading: About Me
+Text:
+I am an AI Engineer and Technical Instructor holding a B.Sc. in Computer Science & Artificial Intelligence (Grade: Very Good). Certified as an AWS Certified Machine Learning Engineer - Associate (MLA-C01) and AWS AI Practitioner, I specialize in end-to-end applied AI, bilingual conversational agents, document intelligence, and low-latency computer vision.
+
+Beyond engineering, I serve as an AI Instructor & Technical Lead at the National Telecommunication Institute (NTI), where I designed and delivered a 90-hour intensive Machine Learning curriculum, mentoring 50+ engineers in model evaluation, reproducible MLOps, and clean architecture.
+
+Section 3: Core Technical Competencies (Use a 4-Card Grid)
+Generative AI & LLMs
+Enterprise RAG Pipelines & Semantic Search
+ChromaDB Vector Store
+Multi-Turn Stateful Agents (Gemini API, OpenAI)
+Prompt Engineering & Tool Calling
+Computer Vision & Multimodal
+OCR & Document Parsing (Tesseract, OpenCV)
+YOLO Object Detection & Face Recognition
+Vision-to-Language Image Captioning
+Real-Time CCTV Stream Analytics
+Machine Learning & Frameworks
+PyTorch, TensorFlow, Keras, Scikit-learn
+Model Evaluation (F1, Accuracy, Latency, Loss)
+Feature Engineering & Quantization
+Supervised & Unsupervised Learning
+Cloud, MLOps & Backend
+AWS Cloud (MLA-C01 Certified) & GCP
+Docker Containerization & Microservices
+FastAPI, Flask, RESTful APIs
+Linux VPS, Nginx Reverse Proxy & PM2
+Section 4: Featured Projects (Cards with "View GitHub" buttons)
+Project 1: FlowWatch-AI | Real-Time Threat Intelligence Platform
+Key Metric: ~200 ms Detection Latency
+Description: Real-time monitoring platform pairing multi-stage ML classification with automated IP defense and structured JSON audit logging. Built with Python, Scikit-learn, and Streamlit.
+Project 2: EduBot | Document Intelligence & RAG Knowledge Base
+Key Metric: Full Scanned Textbook OCR-to-Vector Pipeline
+Description: End-to-end OCR and vectorization engine extracting text and complex tables from physical textbooks into a VPS-hosted ChromaDB for instant Q&A.
+Project 3: Algorithmic Forex Trading Bot
+Key Metric: 89.5% Win Rate (Boosted from 38%)
+Description: Automated quantitative trading bot on MT5 featuring dynamic risk management, feature engineering, and 24/7 cloud VPS execution.
+Project 4: I-Monitor | Multimodal Vision-to-Language System
+Key Metric: COCO 2017 Deep Learning Benchmark
+Description: Assistive deep learning solution converting visual scenes into descriptive natural language using CNN-Transformer architectures in TensorFlow.
+Section 5: Experience & Leadership
+AI Instructor & Technical Lead | National Telecommunication Institute (NTI)
+Nov 2025 – Present | Giza, Egypt
+Led a 90-hour comprehensive Machine Learning & Applied AI curriculum for 50+ engineers.
+Mentored real-world projects on cloud deployment (AWS/GCP), clean code, and MLOps.
+AI Engineer Intern | Abs.ai
+Nov 2025 – Dec 2025 | New Cairo, Egypt
+Co-architected an enterprise bilingual conversational banking assistant with ChromaDB and Gemini API.
+Deployed containerized AI microservices on Linux VPS with Docker and Nginx.
+AI & Cybersecurity Engineering Intern | NTI
+Jul 2025 – Oct 2025 | Smart Village, Egypt
+Developed machine learning threat detection models achieving sub-second mitigation.
+Section 6: Certifications & Badges (Display logos in a clean row)
+🏅 AWS Certified Machine Learning Engineer - Associate (MLA-C01) (2026)
+🏅 AWS Certified AI Practitioner (Oct 2025)
+🏅 AWS Certified Cloud Practitioner (Feb 2025)
+🏅 Huawei HCCDA-AI (Oct 2025)
+🏅 NVIDIA Deep Learning Institute (DLI) Certification (Sep 2025)
+Section 7: Contact / Footer
+Headline: "Let’s Build Next-Generation AI Solutions Together"
+Location: Cairo / Giza, Egypt (Available for Remote Worldwide)
+Email: 
+
+mohamed7tahawy@gmail.com
+Phone: +20 1016483150
+LinkedIn: linkedin.com/in/mohamedtahawy
+GitHub: github.com/MohammedTahawy
