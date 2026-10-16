@@ -98,11 +98,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close mobile menu on clicking any link
-    navLinks.forEach(link => {
+    navLinksContainer.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinksContainer.classList.remove('open');
         mobileToggle.classList.remove('open');
       });
+    });
+
+    // Close mobile menu on clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navbar.contains(e.target) && navLinksContainer.classList.contains('open')) {
+        navLinksContainer.classList.remove('open');
+        mobileToggle.classList.remove('open');
+      }
+    });
+
+    // Close mobile menu on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navLinksContainer.classList.contains('open')) {
+        navLinksContainer.classList.remove('open');
+        mobileToggle.classList.remove('open');
+      }
     });
   }
 
@@ -169,8 +185,8 @@ Technical Instructor & Lead at NTI (90h curriculum delivered to 50+ engineers).`
 
     contact: () => `Email    : <a href="mailto:mohamed7tahawy@gmail.com">mohamed7tahawy@gmail.com</a>
 Phone    : +20 1016483150
-LinkedIn : <a href="https://linkedin.com/in/mohamedtahawy" target="_blank">linkedin.com/in/mohamedtahawy</a>
-GitHub   : <a href="https://github.com/MohammedTahawy" target="_blank">github.com/MohammedTahawy</a>
+LinkedIn : <a href="https://www.linkedin.com/in/mohamedtahawy" target="_blank" rel="noopener noreferrer">linkedin.com/in/mohamedtahawy</a>
+GitHub   : <a href="https://github.com/MohammedTahawy" target="_blank" rel="noopener noreferrer">github.com/MohammedTahawy</a>
 Location : Cairo / Giza, Egypt (Available Remote Worldwide)`,
 
     hire: () => `<span style="color:#22c55e">✓ Certified AWS ML Engineer (MLA-C01) with production deployment experience.</span>

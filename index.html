@@ -17,6 +17,8 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="tahawy-high-resolution-logo.png" />
+  <link rel="apple-touch-icon" href="tahawy-high-resolution-logo.png" />
+  <meta name="theme-color" content="#050814" />
 
   <!-- Google Fonts: Outfit, Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,7 +61,7 @@
       </nav>
 
       <div class="nav-actions">
-        <a href="Mohamed Abdulhamid Tahawy CV.pdf" target="_blank" class="btn btn-outline btn-sm nav-cv-btn" download>
+        <a href="Mohamed Abdulhamid Tahawy CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm nav-cv-btn" download>
           <i class="fa-solid fa-file-arrow-down"></i>
           <span>CV</span>
         </a>
@@ -916,7 +918,12 @@
               <span class="cert-issuer"><i class="fa-solid fa-certificate"></i> Huawei</span>
               <h3 class="cert-title">Huawei HCCDA &mdash; AI</h3>
               <p class="cert-date">Issued: Oct 2025 &bull; Artificial Intelligence</p>
-              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview certificate</span>
+              <div class="cert-links-row">
+                <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Preview Badge</span>
+                <a href="Huawei Developer Competition 2025 Northern Africa.pdf" target="_blank" rel="noopener noreferrer" class="view-cert-link" onclick="event.stopPropagation()">
+                  <i class="fa-solid fa-trophy"></i> Dev Award PDF
+                </a>
+              </div>
             </div>
           </div>
 
@@ -929,12 +936,17 @@
               <span class="cert-issuer"><i class="fa-solid fa-microchip"></i> NVIDIA</span>
               <h3 class="cert-title">NVIDIA Deep Learning Institute (DLI)</h3>
               <p class="cert-date">Issued: Sep 2025 &bull; Deep Learning</p>
-              <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to preview certificate</span>
+              <div class="cert-links-row">
+                <span class="view-cert-link"><i class="fa-solid fa-magnifying-glass-plus"></i> Preview Cert</span>
+                <a href="Mohamed Tahawy - NVIDIA.pdf" target="_blank" rel="noopener noreferrer" class="view-cert-link" onclick="event.stopPropagation()">
+                  <i class="fa-solid fa-file-pdf"></i> Official PDF
+                </a>
+              </div>
             </div>
           </div>
 
           <!-- Cert 6: DEPI AWS ML Trainee & Team Leader -->
-          <div class="cert-card" onclick="openCertModal('DEPI AWS ML ENG certificate for TEamleaders.pdf', 'DEPI AWS ML Engineer & Team Leader Honor')">
+          <div class="cert-card" onclick="openCertModal('depi AWS ML ENG CERTIFICATE.pdf', 'DEPI AWS ML Engineer Certificate')">
             <div class="cert-badge-wrapper">
               <div class="depi-icon-badge">
                 <i class="fa-solid fa-award"></i>
@@ -944,9 +956,14 @@
               <span class="cert-issuer"><i class="fa-solid fa-landmark"></i> DEPI (Digital Egypt)</span>
               <h3 class="cert-title">AWS ML Engineer &amp; Team Leader</h3>
               <p class="cert-date">182 Hours Intensive Trainee &amp; Leadership Honor</p>
-              <a href="DEPI AWS ML ENG certificate for TEamleaders.pdf" target="_blank" class="view-cert-link" onclick="event.stopPropagation()">
-                <i class="fa-solid fa-file-pdf"></i> View official PDF
-              </a>
+              <div class="cert-links-row">
+                <a href="depi AWS ML ENG CERTIFICATE.pdf" target="_blank" rel="noopener noreferrer" class="view-cert-link" onclick="event.stopPropagation()">
+                  <i class="fa-solid fa-file-pdf"></i> Completion Cert
+                </a>
+                <a href="DEPI AWS ML ENG certificate for TEamleaders.pdf" target="_blank" rel="noopener noreferrer" class="view-cert-link" onclick="event.stopPropagation()">
+                  <i class="fa-solid fa-award"></i> Team Leader Honor
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1003,11 +1020,13 @@
           <!-- Quick Action Buttons for Terminal -->
           <div class="terminal-quick-actions">
             <span class="quick-label">Quick Commands:</span>
+            <button class="t-btn" onclick="runCommand('whoami')">whoami</button>
             <button class="t-btn" onclick="runCommand('skills')">skills</button>
             <button class="t-btn" onclick="runCommand('projects')">projects</button>
             <button class="t-btn" onclick="runCommand('certs')">certs</button>
             <button class="t-btn" onclick="runCommand('contact')">contact</button>
             <button class="t-btn" onclick="runCommand('hire')">hire</button>
+            <button class="t-btn" onclick="runCommand('resume')">resume</button>
             <button class="t-btn" onclick="runCommand('clear')">clear</button>
           </div>
 
@@ -1058,7 +1077,7 @@
                   <span class="contact-label">Phone &amp; WhatsApp</span>
                   <a href="tel:+201016483150" class="contact-val">+20 1016483150</a>
                 </div>
-                <a href="https://wa.me/201016483150" target="_blank" class="copy-btn" title="Open WhatsApp">
+                <a href="https://wa.me/201016483150" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open WhatsApp">
                   <i class="fa-brands fa-whatsapp"></i>
                 </a>
               </div>
@@ -1068,9 +1087,9 @@
                 <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
                 <div class="contact-info">
                   <span class="contact-label">LinkedIn Profile</span>
-                  <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" class="contact-val">linkedin.com/in/mohamedtahawy</a>
+                  <a href="https://www.linkedin.com/in/mohamedtahawy" target="_blank" rel="noopener noreferrer" class="contact-val">linkedin.com/in/mohamedtahawy</a>
                 </div>
-                <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" class="copy-btn" title="Visit LinkedIn">
+                <a href="https://www.linkedin.com/in/mohamedtahawy" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Visit LinkedIn">
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -1080,9 +1099,9 @@
                 <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
                 <div class="contact-info">
                   <span class="contact-label">GitHub Repositories</span>
-                  <a href="https://github.com/MohammedTahawy" target="_blank" class="contact-val">github.com/MohammedTahawy</a>
+                  <a href="https://github.com/MohammedTahawy" target="_blank" rel="noopener noreferrer" class="contact-val">github.com/MohammedTahawy</a>
                 </div>
-                <a href="https://github.com/MohammedTahawy" target="_blank" class="copy-btn" title="Visit GitHub">
+                <a href="https://github.com/MohammedTahawy" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Visit GitHub">
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -1147,8 +1166,8 @@
       </div>
 
       <div class="footer-socials">
-        <a href="https://github.com/MohammedTahawy" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://linkedin.com/in/mohamedtahawy" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/MohammedTahawy" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohamedtahawy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="mailto:mohamed7tahawy@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
         <a href="tel:+201016483150" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
       </div>
